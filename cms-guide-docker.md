@@ -57,17 +57,9 @@ After filter: final cross section = 1.887e+09 +- 7.281e+07 pb
 =============================================
 ```
 
-To use a list of root files to compute the cross section for one sample or to automate the process for multiple samples, we need additional scripts adapted from the [genproductions repository](https://github.com/cms-sw/genproductions.git) (for reference only). This repository as a whole is not intended to and cannot be used by external users. 
+To use a list of root files to compute the cross section for one sample or to automate the process for multiple samples, we need to first have a file list for each MC sample.
 
-Fetch the python script that calls ana.py to compute the cross sections:
-```
-curl https://raw.githubusercontent.com/cms-sw/genproductions/master/Utilities/calculateXSectionAndFilterEfficiency/compute_cross_section.py -o compute_cross_section.py
-```
-
-Fetch the shell script that passes the arguments (file list, maximum number of events, etc.) to the compute_cross_section.py script and executes the configuration script with cmsRun:
-```
-curl https://raw.githubusercontent.com/cms-sw/genproductions/master/Utilities/calculateXSectionAndFilterEfficiency/calculateXSectionAndFilterEfficiency.sh  -o calculateXSectionAndFilterEfficiency.sh
-```
+For example, if we would like to compute the cross section of *QCDuubar_Pt-15to3000_TuneZ2star_Flat_13TeV_pythia6* for 2015 collision data using all the files in this sample,  
 
 
 
