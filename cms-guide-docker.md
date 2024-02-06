@@ -10,40 +10,40 @@
 
 The cross section values for Run1 Standard Model MC datasets are taken from the following table. The numbers are obtained either by running published code or by quoting published results in literatures.
 
-| Process       | In Stock | Price |
-| :------------ | :------- | ----- |
-| W+            |      |  |
-| W-            |      |  |
-| Total W       |     |  |
-| Z/a*(20)      |     |  |
-| Z/a* (50)     |
-| Z/a* (60-120) |
-| t tbar	       |
-| single top    |
-| W+cbar        |
-| W+cbar        |
-| Total Wc      |
-| Total Wb bbar |
-| Z/a*b bbar    |
-| Total WZ/a*   |
-| ttbarW        |
-| ttbarZ        |
-| tqZ; q!=b     |
-| tbZ           |
-| WWW           |
-| WWZ           |
-| WZZ           |
-| ZZZ           |
-| 4 TOPs        |
-| W+ W-         |
-| W+ Z/a*       |
-| W+ Z/a*       |
-| W+ Z/a*       |
-| W- Z/a*       |
-| Z/a* Z/a*     |
-| Z/a* Z/a*     |
-| Z/a* Z        |
-| Z Z           |
+| Process       | Generator/Source | Phase space cuts | Order | Final state | Cross section (pb) | Error (pb) scales (+/ PDF) | Comments |
+| :------------ | :--------------- | :--------------- | :---- | :---------- | :----------------- | :------------------------- | :------- |
+| W+            | FEWZ 3.1         |  |
+| W-            | FEWZ 3.1         |  |
+| Total W       | FEWZ 3.1         |  |
+| Z/a*(20)      | FEWZ 3.1         |  |
+| Z/a* (50)     | FEWZ 3.1         |
+| Z/a* (60-120) | FEWZ 3.1         |
+| t tbar	       |                  |
+| single top    |                  |
+| W+cbar        | MCFM             |
+| W+cbar        | MCFM             |
+| Total Wc      | MCFM             |
+| Total Wb bbar | aMC@NLO          |
+| Z/a*b bbar    | MCFM             |
+| Total WZ/a*   | MCFM             |
+| ttbarW        | MCFM             |
+| ttbarZ        | NLO              |
+| tqZ; q!=b     | aMC@NLO          |
+| tbZ           | aMC@NLO          |
+| WWW           | aMC@NLO          |
+| WWZ           | aMC@NLO          |
+| WZZ           | aMC@NLO          |
+| ZZZ           | aMC@NLO          |
+| 4 TOPs        | aMC@NLO          |
+| W+ W-         | MCFM 6.6         |
+| W+ Z/a*       | MCFM 6.6         |
+| W+ Z/a*       | MCFM 6.6         |
+| W+ Z/a*       | MCFM 6.6         |
+| W- Z/a*       | MCFM 6.6         |
+| Z/a* Z/a*     | MCFM 6.6         |
+| Z/a* Z/a*     | MCFM 6.6         |
+| Z/a* Z        | MCFM 6.6         |
+| Z Z           | MCFM 6.6         |
 
 #### <a name="run2">Run2</a>
 
