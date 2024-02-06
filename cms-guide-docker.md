@@ -10,9 +10,9 @@
 
 The cross section values for Run1 Standard Model MC datasets are taken from the following table. The numbers are obtained either by running published code or by quoting published results in literatures.
 
-| Process       | Generator/Source | Phase space cuts     | Order | Final state | Cross section (pb) | Error (pb) scales (+/ PDF) | Comments |
-| :------------ | :--------------- | :------------------- | :---- | :---------- | :----------------- | :------------------------- | :------- |
-| W+            | FEWZ 3.1         | --                   | NNLO  | W->μν       | 7213.4             | +45.3 -21.3 ( ± 241.3 )    | 
+| Process       | Generator/Source | Phase space cuts     | Order | Final state | Cross section (pb) | Error (pb) scales (+/ PDF) | Comments                                                                                   |
+| :------------ | :--------------- | :------------------- | :---- | :---------- | :----------------- | :------------------------- | :----------------------------------------------------------------------------------------- |
+| W+            | FEWZ 3.1         | --                   | NNLO  | W->μν       | 7213.4             | +45.3 -21.3 ( ± 241.3 )    | Inclusive W production, BR(W->lv) included, l=μ PDF error also includes alphas, muF=muR=mw |
 | W-            | FEWZ 3.1         | --                   | NNLO  | W->μν       | 5074.7             | +33.8 -18.3 ( ± 188.3)     | 
 | Total W       | FEWZ 3.1         | --                   | NNLO  | W->μν       | 12234.4            | +79.0 -39.7 (±414.7)       | 
 | Z/a*(20)      | FEWZ 3.1         | m(ll)>20 GeV         | NNLO  | Z -> μμ     | 1966.7             | +19.8 -13.7 ( ± 87.7 )     | 
