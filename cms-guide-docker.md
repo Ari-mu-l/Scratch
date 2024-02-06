@@ -12,38 +12,38 @@ The cross section values for Run1 Standard Model MC datasets are taken from the 
 
 | Process       | Generator/Source | Phase space cuts     | Order | Final state | Cross section (pb) | Error (pb) scales (+/ PDF) | Comments |
 | :------------ | :--------------- | :------------------- | :---- | :---------- | :----------------- | :------------------------- | :------- |
-| W+            | FEWZ 3.1         | --                   |
-| W-            | FEWZ 3.1         | --                   |
-| Total W       | FEWZ 3.1         | --                   |
-| Z/a*(20)      | FEWZ 3.1         | m(ll)>20 GeV         |
-| Z/a* (50)     | FEWZ 3.1         | m(ll)>50 GeV         |
-| Z/a* (60-120) | FEWZ 3.1         | 60 < m(ll) < 120 GeV |
-| t tbar	       |                  |                      |
-| single top    |                  |                      |
-| W+cbar        | MCFM             | --                   |
-| W+cbar        | MCFM             | --                   |
-| Total Wc      | MCFM             | --                   |
-| Total Wb bbar | aMC@NLO          | --                   |
-| Z/a*b bbar    | MCFM             | m(ll) > 50 GeV       |
-| Total WZ/a*   | MCFM             | m(ll) > 12 GeV       |
-| ttbarW        | MCFM             | --                   |
-| ttbarZ        | NLO              | --                   |
-| tqZ; q!=b     | aMC@NLO          | m(ll) > 50 GeV       |
-| tbZ           | aMC@NLO          | m(ll) > 50 GeV       |
-| WWW           | aMC@NLO          | --                   |
-| WWZ           | aMC@NLO          | --                   |
-| WZZ           | aMC@NLO          | --                   |
-| ZZZ           | aMC@NLO          | --                   |
-| 4 TOPs        | aMC@NLO          | --                   |
-| W+ W-         | MCFM 6.6         | 0                    |
-| W+ Z/a*       | MCFM 6.6         | m(l+l-) > 12 GeV     |
-| W+ Z/a*       | MCFM 6.6         | m(l+l-) > 40 GeV     |
-| W- Z/a*       | MCFM 6.6         | m(l+l-) > 12 GeV     |
-| W- Z/a*       | MCFM 6.6         | m(l+l-) > 40 GeV     |
-| Z/a* Z/a*     | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 12 GeV |
-| Z/a* Z/a*     | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 40 GeV |
-| Z/a* Z        | MCFM 6.6         | m(l+l- from Z/a*) > 12 GeV |
-| Z Z           | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 1 GeV  |
+| W+            | FEWZ 3.1         | --                   | NNLO  |
+| W-            | FEWZ 3.1         | --                   | NNLO  |
+| Total W       | FEWZ 3.1         | --                   | NNLO  |
+| Z/a*(20)      | FEWZ 3.1         | m(ll)>20 GeV         | NNLO  |
+| Z/a* (50)     | FEWZ 3.1         | m(ll)>50 GeV         | NNLO  |
+| Z/a* (60-120) | FEWZ 3.1         | 60 < m(ll) < 120 GeV | NNLO  |
+| t tbar	       |                  |                      |       |
+| single top    |                  |                      |       |
+| W+cbar        | MCFM             | --                   | NLO   |
+| W+cbar        | MCFM             | --                   | NLO   |
+| Total Wc      | MCFM             | --                   | NLO   |
+| Total Wb bbar | aMC@NLO          | --                   | NLO   |
+| Z/a*b bbar    | MCFM             | m(ll) > 50 GeV       | LO    |
+| Total WZ/a*   | MCFM             | m(ll) > 12 GeV       | NLO   |
+| ttbarW        | MCFM             | --                   | NLO   |
+| ttbarZ        | NLO              | --                   | NLO   |
+| tqZ; q!=b     | aMC@NLO          | m(ll) > 50 GeV       | NLO   |
+| tbZ           | aMC@NLO          | m(ll) > 50 GeV       | NLO   |
+| WWW           | aMC@NLO          | --                   | NLO   |
+| WWZ           | aMC@NLO          | --                   | NLO   |
+| WZZ           | aMC@NLO          | --                   | NLO   |
+| ZZZ           | aMC@NLO          | --                   | NLO   |
+| 4 TOPs        | aMC@NLO          | --                   | NLO   |
+| W+ W-         | MCFM 6.6         | 0                    | NLO   |
+| W+ Z/a*       | MCFM 6.6         | m(l+l-) > 12 GeV     | NLO   |
+| W+ Z/a*       | MCFM 6.6         | m(l+l-) > 40 GeV     | NLO   |
+| W- Z/a*       | MCFM 6.6         | m(l+l-) > 12 GeV     | NLO   |
+| W- Z/a*       | MCFM 6.6         | m(l+l-) > 40 GeV     | NLO   |
+| Z/a* Z/a*     | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 12 GeV | NLO   |
+| Z/a* Z/a*     | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 40 GeV | NLO   |
+| Z/a* Z        | MCFM 6.6         | m(l+l- from Z/a*) > 12 GeV | NLO   |
+| Z Z           | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 1 GeV  | NLO   |
 
 #### <a name="run2">Run2</a>
 
