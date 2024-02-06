@@ -12,38 +12,38 @@ The cross section values for Run1 Standard Model MC datasets are taken from the 
 
 | Process       | Generator/Source | Phase space cuts     | Order | Final state | Cross section (pb) | Error (pb) scales (+/ PDF) | Comments |
 | :------------ | :--------------- | :------------------- | :---- | :---------- | :----------------- | :------------------------- | :------- |
-| W+            | FEWZ 3.1         | --                   | NNLO  | W->μν       | 7213.4             | 
-| W-            | FEWZ 3.1         | --                   | NNLO  | W->μν       | 5074.7             | 
-| Total W       | FEWZ 3.1         | --                   | NNLO  | W->μν       | 12234.4            | 
-| Z/a*(20)      | FEWZ 3.1         | m(ll)>20 GeV         | NNLO  | Z -> μμ     | 1966.7             | 
-| Z/a* (50)     | FEWZ 3.1         | m(ll)>50 GeV         | NNLO  | Z -> μμ     | 1177.3             | 
-| Z/a* (60-120) | FEWZ 3.1         | 60 < m(ll) < 120 GeV | NNLO  | Z -> μμ     | 1129.2             | 
-| t tbar	       |                  |                      |       |             |                    | 
-| single top    |                  |                      |       |             |                    | 
-| W+cbar        | MCFM             | --                   | NLO   | Inclusive   | 2423.5             | 
-| W+cbar        | MCFM             | --                   | NLO   | Inclusive   | 2624.6             | 
-| Total Wc      | MCFM             | --                   | NLO   | Inclusive   | 5048.1             | 
-| Total Wb bbar | aMC@NLO          | --                   | NLO   | Inclusive   | 377.4              | 
-| Z/a*b bbar    | MCFM             | m(ll) > 50 GeV       | LO    | Inclusive   | 76.75              | 
-| Total WZ/a*   | MCFM             | m(ll) > 12 GeV       | NLO   | Inclusive   | 33.21 (CTEQ), 33.85 (MSTW), 33.72 (NNPDF) |
-| ttbarW        | MCFM             | --                   | NLO   | Inclusive   | 0.232              | 
-| ttbarZ        | NLO              | --                   | NLO   | Inclusive   | 0.2057             | 
-| tqZ; q!=b     | aMC@NLO          | m(ll) > 50 GeV       | NLO   | Z decays to leptons | 0.02450    | 
-| tbZ           | aMC@NLO          | m(ll) > 50 GeV       | NLO   | Z decays to leptons | 0.0114     |
-| WWW           | aMC@NLO          | --                   | NLO   | Inclusive   | 8.058e-02          | 
-| WWZ           | aMC@NLO          | --                   | NLO   | Inclusive   | 5.795e-02          | 
-| WZZ           | aMC@NLO          | --                   | NLO   | Inclusive   | 1.968e-02          | 
-| ZZZ           | aMC@NLO          | --                   | NLO   | Inclusive   | 5.527e-03          | 
-| 4 TOPs        | aMC@NLO          | --                   | NLO   | Inclusive   | 9.144e-04          | 
-| W+ W-         | MCFM 6.6         | 0                    | NLO   | W->eν W->eν | 0.6472             | 
-| W+ Z/a*       | MCFM 6.6         | m(l+l-) > 12 GeV     | NLO   | W->μν Z->ee | 0.0748             | 
-| W+ Z/a*       | MCFM 6.6         | m(l+l-) > 40 GeV     | NLO   | W->μν Z->ee | 0.0535             | 
-| W- Z/a*       | MCFM 6.6         | m(l+l-) > 12 GeV     | NLO   | W->μν Z->ee | 0.0446             | 
-| W- Z/a*       | MCFM 6.6         | m(l+l-) > 40 GeV     | NLO   | W->μν Z->ee | 0.0305             | 
-| Z/a* Z/a*     | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 12 GeV | NLO | Z->μμ Z->ee | 0.0385 | 
-| Z/a* Z/a*     | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 40 GeV | NLO | Z->μμ Z->ee | 0.0185 | 
-| Z/a* Z        | MCFM 6.6         | m(l+l- from Z/a*) > 12 GeV | NLO   | Z->ee Z->νν | 0.1318       | 
-| Z Z           | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 1 GeV  | NLO   | Z->ee Z->μμ | 0.0173 |
+| W+            | FEWZ 3.1         | --                   | NNLO  | W->μν       | 7213.4             | +45.3 -21.3 ( ± 241.3 )    | 
+| W-            | FEWZ 3.1         | --                   | NNLO  | W->μν       | 5074.7             | +33.8 -18.3 ( ± 188.3)     | 
+| Total W       | FEWZ 3.1         | --                   | NNLO  | W->μν       | 12234.4            | +79.0 -39.7 (±414.7)       | 
+| Z/a*(20)      | FEWZ 3.1         | m(ll)>20 GeV         | NNLO  | Z -> μμ     | 1966.7             | +19.8 -13.7 ( ± 87.7 )     | 
+| Z/a* (50)     | FEWZ 3.1         | m(ll)>50 GeV         | NNLO  | Z -> μμ     | 1177.3             | +5.9 -3.6 (±38.8)          | 
+| Z/a* (60-120) | FEWZ 3.1         | 60 < m(ll) < 120 GeV | NNLO  | Z -> μμ     | 1129.2             | +5.5 -2.6 (±37.5)          | 
+| t tbar	       |                  |                      |       |             |                    |                            | 
+| single top    |                  |                      |       |             |                    |                            | 
+| W+cbar        | MCFM             | --                   | NLO   | Inclusive   | 2423.5             |                            | 
+| W+cbar        | MCFM             | --                   | NLO   | Inclusive   | 2624.6             |                            | 
+| Total Wc      | MCFM             | --                   | NLO   | Inclusive   | 5048.1             |                            | 
+| Total Wb bbar | aMC@NLO          | --                   | NLO   | Inclusive   | 377.4              | +19.5% -16.8%              | 
+| Z/a*b bbar    | MCFM             | m(ll) > 50 GeV       | LO    | Inclusive   | 76.75              |                            | 
+| Total WZ/a*   | MCFM             | m(ll) > 12 GeV       | NLO   | Inclusive   | 33.21 (CTEQ), 33.85 (MSTW), 33.72 (NNPDF) |     |
+| ttbarW        | MCFM             | --                   | NLO   | Inclusive   | 0.232              | ±0.067 (±PDF error:0.03)   |
+| ttbarZ        | NLO              | --                   | NLO   | Inclusive   | 0.2057             | Scale error: +0.019, - 0.024 |
+| tqZ; q!=b     | aMC@NLO          | m(ll) > 50 GeV       | NLO   | Z decays to leptons | 0.02450    | Scale error:+3.3% -2.6%    |
+| tbZ           | aMC@NLO          | m(ll) > 50 GeV       | NLO   | Z decays to leptons | 0.0114     | Scale error:+3.3% -2.6%    |
+| WWW           | aMC@NLO          | --                   | NLO   | Inclusive   | 8.058e-02          | +4.7% -3.9%                | 
+| WWZ           | aMC@NLO          | --                   | NLO   | Inclusive   | 5.795e-02          | +5.6% -4.6%                | 
+| WZZ           | aMC@NLO          | --                   | NLO   | Inclusive   | 1.968e-02          | +6.0% -4.9%                | 
+| ZZZ           | aMC@NLO          | --                   | NLO   | Inclusive   | 5.527e-03          | +2.7% -2.4%                | 
+| 4 TOPs        | aMC@NLO          | --                   | NLO   | Inclusive   | 9.144e-04          | +36.3%, -27.0%             | 
+| W+ W-         | MCFM 6.6         | 0                    | NLO   | W->eν W->eν | 0.6472             | ± 0.0231 (± 0.0266)        | 
+| W+ Z/a*       | MCFM 6.6         | m(l+l-) > 12 GeV     | NLO   | W->μν Z->ee | 0.0748             | ± 0.0025 (± 0.0029)        | 
+| W+ Z/a*       | MCFM 6.6         | m(l+l-) > 40 GeV     | NLO   | W->μν Z->ee | 0.0535             | ± 0.0018 (± 0.0028)        | 
+| W- Z/a*       | MCFM 6.6         | m(l+l-) > 12 GeV     | NLO   | W->μν Z->ee | 0.0446             | ± 0.0021 (± 0.0018)        | 
+| W- Z/a*       | MCFM 6.6         | m(l+l-) > 40 GeV     | NLO   | W->μν Z->ee | 0.0305             | ± 0.0014 (± 0.0014)        | 
+| Z/a* Z/a*     | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 12 GeV | NLO | Z->μμ Z->ee | 0.0385 | ± 0.0011 (± 0.0011) | 
+| Z/a* Z/a*     | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 40 GeV | NLO | Z->μμ Z->ee | 0.0185 | ± 0.0007 (± 0.0007) | 
+| Z/a* Z        | MCFM 6.6         | m(l+l- from Z/a*) > 12 GeV | NLO   | Z->ee Z->νν | 0.1318       | ± 0.0040 (± 0.0067)        | 
+| Z Z           | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 1 GeV  | NLO   | Z->ee Z->μμ | 0.0173 | ± 0.0067 (± 0.0007) |
 
 #### <a name="run2">Run2</a>
 
