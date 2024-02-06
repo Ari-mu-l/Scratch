@@ -6,7 +6,7 @@
 
 ## <a name="where">Where do the values come from?</a>
 
-#### <a name="run1">Run1</a>
+### <a name="run1">Run1</a>
 
 The cross section values for Run1 Standard Model MC datasets are taken from the following table. The numbers are obtained either by running published code or by quoting published results in literatures.
 
@@ -45,7 +45,7 @@ The cross section values for Run1 Standard Model MC datasets are taken from the 
 | Z/a* Z        | MCFM 6.6         | m(l+l- from Z/a*) > 12 GeV | NLO   | Z->ee Z->νν | 0.1318       | ± 0.0040 (± 0.0067)        | 
 | Z Z           | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 1 GeV  | NLO   | Z->ee Z->μμ | 0.0173 | ± 0.0067 (± 0.0007) |
 
-#### <a name="run2">Run2</a>
+### <a name="run2">Run2</a>
 
 For Run2, [GenXSecAnalyzer tool](https://github.com/cms-sw/cmssw/blob/CMSSW_7_6_X/GeneratorInterface/Core/plugins/GenXSecAnalyzer.cc) is available to compute cross section from an existing MC sample in MiniAOD format. It retrieves information from [GenLumiInfoProduct](https://github.com/cms-sw/cmssw/blob/CMSSW_7_6_X/SimDataFormats/GeneratorProducts/interface/GenLumiInfoProduct.h) and [GenFilterInfo](https://github.com/cms-sw/cmssw/blob/CMSSW_7_6_X/SimDataFormats/GeneratorProducts/interface/GenFilterInfo.h) to compute averaged cross sections over all the input luminosity blocks.
 
