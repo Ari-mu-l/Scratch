@@ -8,7 +8,42 @@
 
 #### <a name="run1">Run1</a>
 
-...
+The cross section values for Run1 Standard Model MC datasets are taken from the following table. The numbers are obtained either by running published code or by quoting published results in literatures.
+
+| Process       | In Stock | Price |
+| :------------ | :------- | ----- |
+| W+            |      |  |
+| W-            |      |  |
+| Total W       |     |  |
+| Z/a*(20)      |     |  |
+| Z/a* (50)     |
+| Z/a* (60-120) |
+| t tbar	       |
+| single top    |
+| W+cbar        |
+| W+cbar        |
+| Total Wc      |
+| Total Wb bbar |
+| Z/a*b bbar    |
+| Total WZ/a*   |
+| ttbarW        |
+| ttbarZ        |
+| tqZ; q!=b     |
+| tbZ           |
+| WWW           |
+| WWZ           |
+| WZZ           |
+| ZZZ           |
+| 4 TOPs        |
+| W+ W-         |
+| W+ Z/a*       |
+| W+ Z/a*       |
+| W+ Z/a*       |
+| W- Z/a*       |
+| Z/a* Z/a*     |
+| Z/a* Z/a*     |
+| Z/a* Z        |
+| Z Z           |
 
 #### <a name="run2">Run2</a>
 
@@ -71,12 +106,13 @@ curl https://opendata.cern.ch/record/18392/files/CMS_mc_RunIIFall15MiniAODv2_QCD
 -->
 
 
-
-
-
 ## <a name="what">What are different efficiency numbers?</a>
 
 - Before matching: the cross section before jet matching and any filter.
 - After matching: the cross section after jet matching BUT before any filter.
 - Filter efficiency: the efficiency of the any filter.
 - After filter: the cross section after jet matching and additional filter are applied. This is your final cross section.
+
+## <a name="where">Where to find NLO-corrected values?</a>
+
+
