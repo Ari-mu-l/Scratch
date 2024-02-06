@@ -57,7 +57,7 @@ After filter: final cross section = 1.887e+09 +- 7.281e+07 pb
 =============================================
 ```
 
-The cross section values for Run2 on the Open Data Portal are computed using 1`×`10^7
+The cross section values for Run2 on the Open Data Portal are computed using `1×10^7`
 
 <!---
 To use a list of root files to compute the cross section for one sample or to automate the process for multiple samples, we need to first have a file list for each MC sample.
