@@ -34,7 +34,7 @@ The cross section values for Run1 Standard Model MC datasets are taken from the 
 |W+Z/a*       | MCFM           | m(ll) > 40 GeV	     | NLO | Inclusive     | 11.8             | ±0.6                                  |
 |W-Z/a*       | MCFM           | m(ll) > 40 GeV	     | NLO | Inclusive     | 6.4              | ±0.4                                  |
 |Total WZ/a*  | MCFM           | m(ll) > 40 GeV	     | NLO | Inclusive     | 18.2             | ±0.7                                  |
-|Z/a*Z/a*     | MCFM           | m(ll) > 40 GeV	     | NLO | Inclusive     | 5.9              | ±0.15                                 |
+|Z/a\*Z/a\*     | MCFM           | m(ll) > 40 GeV	     | NLO | Inclusive     | 5.9              | ±0.15                                 |
 |ttbarW       | --             | --	                 | NLO | Inclusive     | 0.1473           | ±0.0155                               |
 |ttbarZ       | --             | --	                 | NLO | Inclusive     | 0.1369           | ±0.029                                |
 
