@@ -1,8 +1,9 @@
-1. [Where do the values come from?](#where)
-   1. [Run1](#run1)
-   2. [Run2](#run2)
-2. [What are different efficiency numbers?](#what)
-3. [Where to find NLO-corrected values?](#cmsguide)
+[Run 1](#run1)
+   [7 TeV](#7tev)
+   [8 TeV](#8tev)
+[Run 2](#run2)
+   [Calculate cross sections using GenXSecAnalyzer](#genxsec)
+   [Where to find cross sections at higher order?](#higher)
 
 ## <a name="where">Where do the values come from?</a>
 
