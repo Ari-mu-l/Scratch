@@ -1,10 +1,10 @@
-[Run 1](#run1)
+- [Run 1](#run1)
 
    - [7 TeV](#7tev)
 
    - [8 TeV](#8tev)
 
-[Run 2](#run2)
+- [Run 2](#run2)
 
    - [Calculate cross sections using GenXSecAnalyzer](#genxsec)
    
