@@ -1,14 +1,14 @@
 [Run 1](#run1)
 
-   [7 TeV](#7tev)
+   - [7 TeV](#7tev)
 
-   [8 TeV](#8tev)
+   - [8 TeV](#8tev)
 
 [Run 2](#run2)
 
-   [Calculate cross sections using GenXSecAnalyzer](#genxsec)
+   - [Calculate cross sections using GenXSecAnalyzer](#genxsec)
    
-   [Where to find cross sections at higher order?](#higher)
+   - [Where to find cross sections at higher order?](#higher)
 
 ## <a name="where">Where do the values come from?</a>
 
