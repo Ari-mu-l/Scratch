@@ -13,8 +13,11 @@
 ## <a name="run1">Run 1</a>
 
 ### <a name="7tev">7 TeV</a>
-The cross section values for Run1 Standard Model MC datasets are taken from the following table. The numbers are obtained either by running published code or by quoting published results in literatures.
+The cross section values for Run1 Standard Model MC datasets can be found through this [link](https://twiki.cern.ch/twiki/bin/view/CMSPublic/StandardModelCrossSections). 
+
 <!---
+The cross section values for Run1 Standard Model MC datasets are taken from the following table. The numbers are obtained either by running published code or by quoting published results in literatures.
+
 | Process       | Generator/Source | Phase space cuts     | Order | Final state | Cross section (pb) | Error (pb) scales (+/ PDF) | Comments                                                                                   |
 | :------------ | :--------------- | :------------------- | :---- | :---------- | :----------------- | :------------------------- | :----------------------------------------------------------------------------------------- |
 | W+            | FEWZ 3.1         | --                   | NNLO  | W->μν       | 7213.4             | +45.3 -21.3 ( ± 241.3 )    | Inclusive W production, BR(W->lv) included, l=μ PDF error also includes alphas, muF=muR=mw |
