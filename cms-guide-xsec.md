@@ -8,7 +8,7 @@
 
    - [Calculate cross sections using GenXSecAnalyzer](#genxsec)
    
-   - [Where to find cross sections at higher order?](#higher)
+   - [Find cross sections at higher order](#higher)
 
 ## <a name="where">Where do the values come from?</a>
 
