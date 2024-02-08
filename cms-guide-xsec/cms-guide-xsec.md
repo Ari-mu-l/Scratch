@@ -181,7 +181,7 @@ python compute_xsec.py
 Higher order top quark cross sections are available from the LHC Physics Working Group for all LHC energies:
 
 - Top quark pair production at [NNLO](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO)
-- Single top quark production at [NLO](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopRefXsec) and at [NNLO](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef)
+- Single top quark production at [NLO](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopRefXsec) and at [NNLO](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef)<br>
 
 A table of further higher-order cross sections for other processes will be added when available.
 
