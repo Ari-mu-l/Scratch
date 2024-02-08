@@ -15,12 +15,12 @@ The number of events in the MC datasets do not match the number of events we exp
 
 ## <a name="run1">Run 1</a>
 
-Selected SM cross section values for Run 1 datasets can be found in the following tables. More details about these cross sections are available [here](https://twiki.cern.ch/twiki/bin/view/CMSPublic/StandardModelCrossSections).
+Selected SM cross section values for Run 1 datasets can be found in the following tables. More details about these cross sections are available [here](https://twiki.cern.ch/twiki/bin/view/CMSPublic/StandardModelCrossSections).<br>
 
 Higher order top quark cross sections are available from the LHC Physics Working Group for all LHC energies:
 
 - Top quark pair production at [NNLO](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO)
-- Single top quark production at [NLO](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopRefXsec) and at [NNLO](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef)
+- Single top quark production at [NLO](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopRefXsec) and at [NNLO](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef)<br>
 
 ### <a name="7tev">7 TeV</a>
 
