@@ -161,7 +161,7 @@ command = 'cmsRun genXSecAnalyzer_cfg.py {} maxEvents={} 2>&1 | tee {}'.format(i
 os.system(command)
 ```
 
-In CMS environment (make sure you executed `cmsenv`), run:
+In CMS environment (make sure you have executed `cmsenv`), run:
 ```
 python compute_xsec.py
 ```
