@@ -75,6 +75,7 @@ Selected SM cross section values for Run 1 datasets can be found in the followin
 | Z/a* Z/a*     | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 40 GeV | NLO | Z->μμ Z->ee   | 0.0185 | ± 0.0007 (± 0.0007)               | 
 | Z/a* Z        | MCFM 6.6         | m(l+l- from Z/a*) > 12 GeV | NLO   | Z->ee Z->νν | 0.1318       | ± 0.0040 (± 0.0067)                        | 
 | Z Z           | MCFM 6.6         | both dileptonic decay<br>m(l+l-) > 1 GeV  | NLO   | Z->ee Z->μμ | 0.0173 | ± 0.0067 (± 0.0007)               |
+<br>
 
 ## <a name="run2">Run 2</a>
 
