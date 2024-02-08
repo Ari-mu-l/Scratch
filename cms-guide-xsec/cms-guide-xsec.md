@@ -136,9 +136,11 @@ After filter: final cross section = 1.887e+09 +- 7.281e+07 pb
 
 Many SM simulations have the output of this analyzer available on the record page, but here is an example of how to compute cross sections by yourself using more than one root files on the Open Data Portal.
 
-For example, if we would like to compute the cross section of *QCDuubar_Pt-15to3000_TuneZ2star_Flat_13TeV_pythia6* for 2015 collision data using all the files in this sample, we may first get the filelist from the [Open Data Portal](https://opendata.cern.ch/record/18392).
+For example, if we would like to compute the cross section of *QCDuubar_Pt-15to3000_TuneZ2star_Flat_13TeV_pythia6* for 2015 collision data using all the files in this sample, we may first get the filelist from the [Open Data Portal](https://opendata.cern.ch/record/18392). 
 
-Download the filelist to CMSSW_7_6_7/src (follow exactly the same procedures for 2016 datasets in CMSSW_10_6_30):
+In CMSSW_7_6_7/src (the following instructions also work in CMSSW_10_6_30 for 2016 datasets),
+
+download the filelist to CMSSW_7_6_7/src:
 ```
 curl https://opendata.cern.ch/record/18392/files/CMS_mc_RunIIFall15MiniAODv2_QCDuubar_Pt-15to3000_TuneZ2star_Flat_13TeV_pythia6_MINIAODSIM_PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1_60000_file_index.txt -o filelist.txt
 ```
