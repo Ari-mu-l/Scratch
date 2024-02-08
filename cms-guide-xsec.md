@@ -146,7 +146,7 @@ import os
 
 # parameters to EDIT
 inputFilelist = "filelist.txt"
-maxEvents = "10"
+maxEvents = "10" # You may increase maxEvents for a better estimation (e.g. set to -1)
 outfileName = "xsec_QCDuubar_Pt-15to3000.log"
 
 # get inputFiles
