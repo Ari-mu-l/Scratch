@@ -11,7 +11,7 @@
    - [Find cross sections at higher order](#higher)
 <br>
 
-The number of events in the MC datasets do not match the number of events we expect to observe for each processes, so we need to normalize the simulation to correspond to some cross section. Cross sections evaluated at higher orders are preferred, because they are more accurate. However, they are not always directly available because of the prohitively heavy computational cost.
+The number of events in the MC datasets do not match the number of events we expect to observe for each process, so we need to normalize the simulation to correspond to some cross section. Cross sections evaluated at higher orders are preferred, because they are more accurate. However, they are not always directly available because of the prohitively heavy computational cost.
 
 ## <a name="run1">Run 1</a>
 
