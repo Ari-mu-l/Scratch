@@ -140,7 +140,7 @@ Download the filelist to CMSSW_7_6_7/src:
 curl https://opendata.cern.ch/record/18392/files/CMS_mc_RunIIFall15MiniAODv2_QCDuubar_Pt-15to3000_TuneZ2star_Flat_13TeV_pythia6_MINIAODSIM_PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1_60000_file_index.txt -o filelist.txt
 ```
 
-Copy and paste 
+Create a python script `compute_xsec.py` with code:
 ```
 import os
 
@@ -161,7 +161,7 @@ command = 'cmsRun genXSecAnalyzer_cfg.py {} maxEvents={} 2>&1 | tee {}'.format(i
 os.system(command)
 ```
 
-In CMS environment (make sure you executed `cmsenv`), run
+In CMS environment (make sure you executed `cmsenv`), run:
 ```
 python compute_xsec.py
 ```
