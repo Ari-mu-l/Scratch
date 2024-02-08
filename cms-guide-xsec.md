@@ -18,10 +18,10 @@ Selected SM cross section values for Run 1 datasets can be found in the followin
 
 | Process     | Generator/Source| Phase space cuts    |Order| Final state   | Cross-section (pb)| Uncertainty (pb):<br>Scale unc. (PDF unc.)|
 | :---------- | :-------------  | :------------------ | :-- | :------------ | :---------------  | :-----------------------------------------|
-|W+           | FEWZ            | --                  | NNLO| W->lv, l=e,m,t| 18456             | ±233 (±850) Total = ± 881                |
+|W+           | FEWZ            | --                  | NNLO| W->lv, l=e,m,t| 18456             | ±233 (±850) Total = ± 881                 |
 |W-           | FEWZ            | --                  | NNLO| W->lv, l=e,m,t| 12858             | ±174 (±654) Total = ± 677                 |
 |Total W      | FEWZ            | --                  | NNLO| W->lv, l=e,m,t| 31314             | ±407 (±1504) Total = ± 1558               |
-|Z/a* (20)    | FEWZ            | m(ll)>20GeV         | NNLO| Z -> ll       | 4998              | ±34 (±270) Total = ± 272                 |
+|Z/a* (20)    | FEWZ            | m(ll)>20GeV         | NNLO| Z -> ll       | 4998              | ±34 (±270) Total = ± 272                  |
 |Z/a* (50)    | FEWZ            | m(ll)>50GeV         | NNLO| Z -> ll       | 3048              | ±34 (±128) Total = ± 132                  |
 |Z/a* (60-120)| FEWZ            | 60 < m(ll) < 120 GeV| NNLO| Z -> ll       | 2916              | ±34 (±122) Total = ± 127                  |
 |W+cbar       | MCFM            | --                  | NLO | Inclusive     | 1718              | ±157                                      |
