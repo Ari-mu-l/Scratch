@@ -84,7 +84,7 @@ Setup the cms environment following the [instruction](/docs/cms-getting-started-
 
 Inside the CMSSW_X_X_X/src directory, fetch the sample configuration file:
 ```
-curl https://raw.githubusercontent.com/cms-sw/genproductions/master/Utilities/calculateXSectionAndFilterEfficiency/genXsec_cfg.py -o ana.py
+curl https://raw.githubusercontent.com/cms-sw/genproductions/master/Utilities/calculateXSectionAndFilterEfficiency/genXsec_cfg.py -o genXSecAnalyzer_cfg.py
 ```
 
 Examine the configuration file with your preferred editor. Within the configuration file,
@@ -105,7 +105,7 @@ specifies the names of the root files to be used.
 
 You may specify `inputFiles` and `maxEvents` and run the script in command line:
 ```
-cmsRun ana.py inputFiles="file:root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/QCDJets_flat_pythia_shifted15mmvertex/MINIAODSIM/PU25nsData2015v1_Shifted15mmCollision2015_76X_mcRun2_asymptotic_v12-v1/60000/00D4D020-59B8-E511-8D6D-A0000420FE80.root" maxEvents=10
+cmsRun genXSecAnalyzer_cfg.py inputFiles="file:root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/QCDJets_flat_pythia_shifted15mmvertex/MINIAODSIM/PU25nsData2015v1_Shifted15mmCollision2015_76X_mcRun2_asymptotic_v12-v1/60000/00D4D020-59B8-E511-8D6D-A0000420FE80.root" maxEvents=10
 ```
 
 Here we use a root file from 2015 QCD MC sample and set the maximum number of events to 10.
@@ -128,8 +128,7 @@ After filter: final cross section = 1.887e+09 +- 7.281e+07 pb
 - Filter efficiency: the efficiency of the any filter.
 - After filter: the cross section after jet matching and additional filter are applied. This is your final cross section.
 
-<!---
-To use a list of root files to compute the cross section for one sample or to automate the process for multiple samples, we need to first have a file list for each MC sample.
+Many SM simulations have the output of this analyzer available on the record page, but here is an example of how to compute cross sections by yourself using more than one root files on the Open Data Portal.
 
 For example, if we would like to compute the cross section of *QCDuubar_Pt-15to3000_TuneZ2star_Flat_13TeV_pythia6* for 2015 collision data using all the files in this sample, we may first get the filelist from the [Open Data Portal](https://opendata.cern.ch/record/18392).
 
@@ -138,20 +137,31 @@ Download the filelist to CMSSW_X_X_X/src:
 curl https://opendata.cern.ch/record/18392/files/CMS_mc_RunIIFall15MiniAODv2_QCDuubar_Pt-15to3000_TuneZ2star_Flat_13TeV_pythia6_MINIAODSIM_PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1_60000_file_index.txt -o filelist.txt
 ```
 
-Create a python script `compute_xsec.py`:
+Copy and paste 
 ```
+import os
+
+# parameters to EDIT
+inputFilelist = "filelist.txt"
+maxEvents = "10"
+outfileName = "xsec_QCDuubar_Pt-15to3000.log"
+
+# get inputFiles
 filelist = open(inputFilelist, 'r').readlines()
 inputFiles = ""
 for rootfile in filelist:
    if('root' in rootfile):
        inputFiles += ' inputFiles='+rootfile + ' '
-   
-# compute cross section
-command = 'cmsRun src/genXSecAnalyzer_cfg.py {} maxEvents={} 2>&1 | tee {}'.format(inputFiles, str(args.events), outfileName)
--->
 
-Many SM simulations have the output of this analyzer available on the record page.
+# compute cross section  
+command = 'cmsRun genXSecAnalyzer_cfg.py {} maxEvents={} 2>&1 | tee {}'.format(inputFiles, maxEvents, outfileName)
+os.system(command)
+```
 
+In CMS environment (make sure you executed `cmsenv`), run
+```
+python compute_xsec.py
+```
 
 ## <a name="higher">Find cross sections at higher order</a>
 
