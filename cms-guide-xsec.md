@@ -78,6 +78,8 @@ Selected SM cross section values for Run 1 datasets can be found in the followin
 
 ## <a name="run2">Run 2</a>
 
+### <a name="genxsec">Calculate cross sections using GenXSecAnalyzer</a>
+
 For Run2, [GenXSecAnalyzer tool](https://github.com/cms-sw/cmssw/blob/CMSSW_7_6_X/GeneratorInterface/Core/plugins/GenXSecAnalyzer.cc) is available to compute cross section from an existing MC sample in MiniAOD format. It retrieves information from [GenLumiInfoProduct](https://github.com/cms-sw/cmssw/blob/CMSSW_7_6_X/SimDataFormats/GeneratorProducts/interface/GenLumiInfoProduct.h) and [GenFilterInfo](https://github.com/cms-sw/cmssw/blob/CMSSW_7_6_X/SimDataFormats/GeneratorProducts/interface/GenFilterInfo.h) to compute averaged cross sections over all the input luminosity blocks. 
 
 Setup the cms environment following the [instruction](/docs/cms-getting-started-miniaod).
@@ -163,6 +165,6 @@ In CMS environment (make sure you executed `cmsenv`), run
 python compute_xsec.py
 ```
 
-## <a name="higher">Find cross sections at higher order</a>
+### <a name="higher">Find cross sections at higher order</a>
 
 
