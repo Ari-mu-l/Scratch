@@ -140,7 +140,7 @@ For example, if we would like to compute the cross section of *QCDuubar_Pt-15to3
 
 In CMSSW_7_6_7/src (the following instructions also work in CMSSW_10_6_30 for 2016 datasets),
 
-download the filelist to CMSSW_7_6_7/src:
+download the filelist:
 ```
 curl https://opendata.cern.ch/record/18392/files/CMS_mc_RunIIFall15MiniAODv2_QCDuubar_Pt-15to3000_TuneZ2star_Flat_13TeV_pythia6_MINIAODSIM_PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1_60000_file_index.txt -o filelist.txt
 ```
