@@ -82,7 +82,7 @@ For Run2, [GenXSecAnalyzer tool](https://github.com/cms-sw/cmssw/blob/CMSSW_7_6_
 
 Setup the cms environment following the [instruction](/docs/cms-getting-started-miniaod).
 
-Inside the CMSSW_X_X_X/src directory, fetch the sample configuration file:
+Inside the CMSSW_7_6_7/src directory, fetch the sample configuration file:
 ```
 curl https://raw.githubusercontent.com/cms-sw/genproductions/master/Utilities/calculateXSectionAndFilterEfficiency/genXsec_cfg.py -o genXSecAnalyzer_cfg.py
 ```
