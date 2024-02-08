@@ -1,3 +1,5 @@
+The number of events in the MC datasets do not match the number of events we expect to observe for each process, so we need to normalize the simulation to correspond to some cross section. Cross sections evaluated at higher orders are preferred, because they are more accurate. However, they are not always directly available because of the prohitively heavy computational cost. This page shows you how to find cross sections for Run 1 and Run 2 datasets.
+
 - [Run 1](#run1)
 
    - [7 TeV](#7tev)
@@ -10,8 +12,6 @@
    
    - [Find cross sections at higher order](#higher)
 <br>
-
-The number of events in the MC datasets do not match the number of events we expect to observe for each process, so we need to normalize the simulation to correspond to some cross section. Cross sections evaluated at higher orders are preferred, because they are more accurate. However, they are not always directly available because of the prohitively heavy computational cost.
 
 ## <a name="run1">Run 1</a>
 
@@ -171,4 +171,10 @@ python compute_xsec.py
 
 ### <a name="higher">Find cross sections at higher order</a>
 
+Higher order top quark cross sections are available from the LHC Physics Working Group for all LHC energies:
+
+- Top quark pair production at [NNLO](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO)
+- Single top quark production at [NLO](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopRefXsec) and at [NNLO](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef)
+
+A table of further higher-order cross sections for other processes will be added when available.
 
