@@ -1,82 +1,8 @@
-Last login: Thu Feb  8 14:31:44 on ttys004
-xiaoheshen@Xiaohes-MacBook-Air-5013 ~ % ls                          
-Applications				abc_fma_shift				minikube-darwin-arm64
-Desktop					abc_fma_shift.c				omptest
-Documents				anaconda3				omptest.c
-Dowloads				cms-opendata-guide			opendata.cern.ch
-Downloads				cms_open_data_python			pi
-Library					cms_open_data_root			pi.c
-Movies					cms_open_data_work			pi_alternate.c
-Music					cmssw_7_6_7-slc6_arm64_gcc493		pi_loop_reduction.c
-Pictures				columnar-data-analysis-codas-hep-2023	pi_original.c
-Public					docker_test				sxiaohe@lxplus.cern.ch
-Zotero					get-pip.py				thread_creation.c
-_lastrun.adl				kubectl					ttbartovlq_step1.adl
-abc_fma					mandel					xshen24@brux.hep.brown.edu
-abc_fma.c				mandel.c				xshen@cmslpc-sl7.fnal.gov
-xiaoheshen@Xiaohes-MacBook-Air-5013 ~ % cd cms-opendata-guide/
-xiaoheshen@Xiaohes-MacBook-Air-5013 cms-opendata-guide % cd ..
-xiaoheshen@Xiaohes-MacBook-Air-5013 ~ % cd opendata.cern.ch 
-xiaoheshen@Xiaohes-MacBook-Air-5013 opendata.cern.ch % ls 
-AUTHORS.rst				babel.ini				requirements-production.txt
-CHANGES.rst				cernopendata				run-tests.sh
-CONTRIBUTING.rst			docker-compose-dev.yml			scripts
-DEVELOPING.rst				docker-compose.yml			sentry
-Dockerfile				elasticsearch-proxy			setup.cfg
-LICENSE					nginx					setup.py
-MANIFEST.in				pytest.ini				tests
-README.rst				requirements-production-local-forks.txt
-xiaoheshen@Xiaohes-MacBook-Air-5013 opendata.cern.ch % cd cernopendata 
-xiaoheshen@Xiaohes-MacBook-Air-5013 cernopendata % ls
-__init__.py	cli.py		factory.py	mappings	static		version.py	wsgi.py
-celery.py	config.py	jsonschemas	modules		templates	views.py
-xiaoheshen@Xiaohes-MacBook-Air-5013 cernopendata % cd modules 
-xiaoheshen@Xiaohes-MacBook-Air-5013 modules % cd fixtures/data/docs 
-xiaoheshen@Xiaohes-MacBook-Air-5013 docs % ls
-alice-about						cms-releases-heavy-ion-data
-alice-getting-started					cms-releases-new-batch-of-data-2016
-alice-releases-educational-datasets-2014		cms-releases-open-data-for-machine-learning-2019
-alice-virtual-machine					cms-simulated-dataset-names
-atlas-13tev-open-data-release-2020			cms-summer-student-report-2017
-atlas-about						cms-the-future-is-open-2017
-atlas-higgs-machine-learning-challenge-2015		cms-virtual-machine-2010
-atlas-open-data-resources-2016				cms-virtual-machine-2011
-cern-open-data-policy-for-lhc-experiments		cms-virtual-machine-2013
-cms-about						cms-virtual-machine-2015
-cms-completes-2010-2011-pp-data				cms-vm-validation-2010
-cms-completes-run1-heavy-ion-open-data-collection-2023	cod-about
-cms-completes-run1-pp-data-release-2022			cod-portal-upgrade-2024-01-31
-cms-getting-started-2010				cod-privacy-policy
-cms-getting-started-2011				cod-search-tips
-cms-getting-started-2015				cod-terms-of-use
-cms-getting-started-aod					cod-welcome
-cms-getting-started-hi-2013-2015			first-cms-open-data-from-lhc-run2-released
-cms-getting-started-miniaod				jade-about
-cms-getting-started-nanoaod				jade-getting-started
-cms-guide-docker					jade-mc-generation
-cms-guide-event-production				jade-software
-cms-guide-for-conddb					jade-virtual-machine
-cms-guide-for-education					lhcb-about
-cms-guide-for-research					lhcb-getting-started
-cms-guide-luminosity-calculation			lhcb-masterclass
-cms-guide-pileup-simulation				lhcb-releases-entire-run1-dataset-2023
-cms-guide-trigger-system				lhcb-releases-first-set-of-data-2022
-cms-guide-troubleshooting				lhcb-stripping
-cms-guide-xsec						lhcb-virtual-machine
-cms-mc-production-overview				opera-about
-cms-observing-higgs-2017				opera-event-reconstruction
-cms-physics-objects-2010				opera-news-first-release
-cms-physics-objects-2011				opera-releases-charm-nue-samples-2020
-cms-physics-objects-2015				simulated-dataset-categories
-cms-releases-first-batch-of-data-2014
-xiaoheshen@Xiaohes-MacBook-Air-5013 docs % emacs -nw
-xiaoheshen@Xiaohes-MacBook-Air-5013 docs % cd cms-guide-xsec 
-xiaoheshen@Xiaohes-MacBook-Air-5013 cms-guide-xsec % ls
-cms-guide-xsec.json
-xiaoheshen@Xiaohes-MacBook-Air-5013 cms-guide-xsec % emacs -nw cms-guide-xsec.json 
-zsh: command not found: emacs
-xiaoheshen@Xiaohes-MacBook-Air-5013 cms-guide-xsec % vi cms-guide-xsec.json 
-
+[
+  {
+    "body": {
+      "content": "cms-guide-xsec.md",
+      "format": "md"
     },
     "collections": [
       {
@@ -90,7 +16,7 @@ xiaoheshen@Xiaohes-MacBook-Air-5013 cms-guide-xsec % vi cms-guide-xsec.json
       "CMS"
     ],
     "short_description": {
-      "content": "As an alternative to using a virtual machine, you can run CMS analysis code in a Docker container. If you have not already installed Docker..."
+      "content": "Selected SM cross section values for Run 1 datasets can be found in the following tables. More details about these cross sections are available here..."
     },
     "slug": "cms-guide-xsec",
     "tags": [
